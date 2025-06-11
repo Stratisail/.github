@@ -41,10 +41,11 @@ Simply describe what you need:
 graph LR
     A[Natural Language Input] --> B[Intent Parsing]
     B --> C[Terraform Generation]
+    C --> A
     C --> D[CI/CD Pipeline]
     D --> E[Deployment]
-    
-    style A fill:#f9f,stroke:#333,stroke-width:2px
+        
+    style A fill:#99f,stroke:#333,stroke-width:2px
     style E fill:#9f9,stroke:#333,stroke-width:2px
 ```
 
@@ -54,7 +55,7 @@ That's it. Really.
 ---
 
 <div align="center">
-  <strong>Built for the future of infrastructure</strong>
+  <strong>Building the future of infrastructure</strong>
   <br>
   <em>🌊 Ride the wave</em>
 </div>
