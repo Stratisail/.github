@@ -17,8 +17,9 @@ Traditional infrastructure deployment is broken. We're fixing it with natural la
 ```mermaid
 graph LR
     A[💬 Natural Language Input] --> B[🧠 Intent Parsing]
-    B --> C[⚙️ Terraform Generation]
-    C --> D[🔄 CI/CD Pipeline]
+    B --> C[⚙️ Workflow Generation]
+    F[🏗️ Terraform Infrastructure] --> C
+    C --> D[🔄 Pipeline Configuration]
     D --> E[🚀 Deployment]
         
     style A fill:#6495ED,stroke:#333,stroke-width:2px
