@@ -27,6 +27,7 @@ graph LR
     style C fill:#20B2AA,stroke:#333,stroke-width:2px
     style D fill:#FFA07A,stroke:#333,stroke-width:2px
     style E fill:#90EE90,stroke:#333,stroke-width:2px
+    style F fill:#6495ED,stroke:#333,stroke-width:2px
 ```
 
 
